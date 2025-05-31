@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fffcf0;
+}
+
+#titleAid{
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 200px;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: #002a4d;
+}
+
+#userfield{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    opacity: 50%;
+}
+
+
+
+#passfield{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    opacity: 50%;
+}
+
+.toUp{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#toAid{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #002a4d;
+}
+
+.goround{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 25px; /* Rounded edges */
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.round-butt{
+    width: 170px;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    color: #002a4d;
+    fill: #002a4d;
+    fill-opacity: 100%;
+    box-sizing: border-box;
+}
+
+.yesido{
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    color: #002a4d;
+    fill: #002a4d;
+    fill-opacity: 100%;
+    box-sizing: border-box;
+}
+
+.round-butt:hover{color: #002a4d; font-weight: bolder;}
+.round-butt:checked{color: #002a4d; font-weight: bolder;}
+
+#enter-butt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #002a4d;
+}

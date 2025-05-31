@@ -1,0 +1,42 @@
+*{
+    padding: 5px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    background-color: #fffcf0;
+    box-sizing: border-box;
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #002a4d;
+}
+
+.shabypic {
+    border-radius: 100%;
+    
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #002a4d;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    z-index: 1000;
+}
