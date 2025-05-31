@@ -7,9 +7,35 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+//Route ke oaid
 Route::get('/oaid', function () {
-    return view('pages.oaid');
-})->name('list');
+    return view('oaid');
+});
+
+//Route ke sign up
+Route::get('/signup', function () {
+    return view('signup');
+});
+
+//Route ke list in
+Route::get('/orphanages', function () {
+    return view('orphanages');
+})->name('orphanages');
+
+//Route ke profile
+Route::get('/profile', function () {
+    return view('profile');
+})->name('profile');
+
+//Route ke donate
+Route::get('/donate', function () {
+    return view('donate');
+})->name('donate');
+
+//Route ke 7 ytm
+Route::get('/tujuh', function () {
+    return view('tujuh');
+});
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
