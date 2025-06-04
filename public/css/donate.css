@@ -28,12 +28,46 @@ html, body {
     z-index: 2;
 }
 
+.instruksi h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #002a4d;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .instruksi{
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     line-height: 50px;
     z-index: 2;
+}
+
+.qris {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.qris img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.done {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #002a4d;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #002a4d;
 }
 
 .floating-button {

@@ -15,6 +15,7 @@
     <p id="location"><strong>Location:</strong> <br>{{ $orphanage->location }}</p>
     <p id="desc"><strong>Description:</strong> <br> {{ $orphanage->desc }}</p>
     <a href="{{ route('orphanages') }}" class="floating-button">Back</a>
-    <a href="{{ route('donate') }}" class="donate-button">Donate</a>
+    <a href="{{ route('donate', ['orph_id' => $orphanage->id]) }}" class="donate-button">Donate</a>
+
 </body>
 </html>

@@ -47,15 +47,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#toAid{
+.toAid{
     margin: auto;
-    width: 50%;
     border: 3px;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     border-radius: 2px;
     color: #002a4d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .goround{
@@ -69,7 +72,7 @@
     box-sizing: border-box;
 }
 
-.round-butt{
+.round-butt {
     width: 170px;
     padding: 12px 15px;
     margin: 8px 0;
@@ -95,6 +98,13 @@
     fill: #002a4d;
     fill-opacity: 100%;
     box-sizing: border-box;
+}
+
+.alert{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto 50px;
 }
 
 .round-butt:hover{color: #002a4d; font-weight: bolder;}
