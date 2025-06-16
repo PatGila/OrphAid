@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $orphanage->name }}</title>
     <link href="{{ asset('css/details.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <h1 id="header">OrphAid</h1>
